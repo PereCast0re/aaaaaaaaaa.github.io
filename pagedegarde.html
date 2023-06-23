@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolios | T.BS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <section class ="start_page" id ="accueil">
+        <div class ="barre_nav" >
+            <a>Barthoux Sauze Thomas</a>
+            <nav class ="navigation">
+                <a href="#accueil"><img class="imga" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAB/CAMAAADxY+0hAAAAY1BMVEX///8AAAD09PQSEhLc3Nyjo6PAwMCvr68ODg66urobGxuTk5Ps7Oyqqqqnp6d/f382NjaNjY3k5OR1dXXMzMxdXV0tLS1TU1NkZGRISEhOTk6ZmZnS0tInJyeHh4c+Pj5sbGxIkYKIAAACOElEQVRoge2Y23aCMBBFMzEiKlUBhRa1+v9f2Yk30N5MMoSurrMf6ioCe+RyMolSAAAAAAAAAACeQQ+rf6f3IfUlES0Hs+tXshx7vwdmccf0on8jajL7p+cC9IzuORWQ7Yle+XNDtM969WfsT1uIFnYjf5anr/khSHstgP3bwlxJZtZvuKb55fucaGb69b+0/xXWn/BdaLeN+QqsI/onE9YnnT1sOZN4/uZBfy5gHM3P9/vxcicjom00/2z3aacdb86j+FOqvnrdbB6UEfxqW36ddzYPNxH836I5CusekuhZv1I8IL3JF/C8Xx352RQvwMHPDQmRdBa7+G0Wk3AWO/nV9DpAD+RXO+ksdvQrwwVItqWufmX2om2ps18VB8ksdver7HBuDiXQB5/moiY6iPTFReV3LbktXRXh+l3lO65zFFaf+wRXfdr2ua7MiUaBBawppK3a8tFBBYRm6STs+PC+fp0GZLHEWGqz2LMt5V6Cwl+ggjyjkJu5lUSAZJVPW3pqZmXm9br2WCKoBdc17DpJ7XZIIjuXOD7OF3/jhfaSiyo8grrFAP/+ZnnBf1aXX0/RuP5++/Tf8I2gaeccrm+AzqvVicq59BucvteTzL3vZhHkD88vE+QPnwr9ff96eUfbLkTyPyyOtrsP5L8lTTR/p0MzowH8nQbVpPDDDz/88MMPP/zw/3t/t/9M5fvv5WL8A2zZtDvk6W33RSnkDyDcrxsa+UK1xCKK9kfADgAAAAAAAAD/hA986x3BLnJslwAAAABJRU5ErkJggg==" alt="" height="40" width="40"/></a>
+                <a href= "#propos" ><img class="imgb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0aqRPKh5qwyDPHt7azvxtMWNyyG_z3JuYmw&usqp=CAU" alt="" height="40" width="40"/></a>
+                <a href="#étude"><img class="imgc" src="data:image/png;base64,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" alt="" height="40" width="40"></a>
+                <a href="#experiencepro"><img class="imgd" src="data:image/png;base64,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" alt="" height="40" width="40"></a>        
+                <a href="#contact"><img class="imge" src="https://us.123rf.com/450wm/alekseyvanin/alekseyvanin1709/alekseyvanin170902762/86968407-vecteur-d-ic%C3%B4ne-d-enveloppe-de-courrier-%C3%A9lectronique-rempli-de-signe-plat-pictogramme-solide-isol%C3%A9.jpg" alt="" height="40" width="40"></a>
+            </nav>
+        </div>
+        <header id="acceuil">           
+            <img src="/image/flat-lay-workstation-with-copy-space-laptop.jpg" class="fond_img">
+            <header id="acceuil">           
+                <div class ="acceuil_part">
+                    <h1 style = "color:#daaa00">Barthoux Sauze Thomas</h1>
+                    <h1 style = "color:white"> BTS SIO</h1>
+                    <p id="hello" data-label="Bienvenue sur mon Portfolio !"></p>
+                </div>     
+        </header>
+
+     </section>
+
+     <section id="propos">
+        <h2 >A propos de moi </h2>
+        <div class="block_ligne" style ="width:77px"></div>
+        
+        <div class="propos_part">
+            <p><strong>Bonjour : </strong></p>
+
+            <p>Je m'appele Barthoux Sauze Thomas j'ai 18ans.
+                Je suis actuellement étudiant en 1er année de BTS SIO au lycée Raoul Follereau à Nevers.</p>
+ 
+            <p>Depuis quelque années j’ai dévelloper une passion pour l’informatique et plus particulièrement la programmation.
+                J’ai donc rejoint le BTS SIO afin de travailler dans un monde qui me passione. 
+                Afin de travailler dans un environnement qui me passione j'ai rejoin la spécialité de Solutions Logicielles et Applications Métier (<strong>SLAM</strong>) </p>
+
+            <p><strong>Mes Passions : </strong></p>
+            
+            <p>Je suis passioner par les jeux vidéo, le design web, le montage photo et vidéo, l'automobile, la mécanique, Sports mécaniques (F1, Rallye, Endurance), le football et la musculation.</p>
+            
+            <br> <br>
+
+            <p><strong>Mes qualitées :</strong></p>
+            
+            <p> ? </p>
+            
+            <p><strong>Si mon profil vous intéresse, voici mon Cv.</strong></p>
+            <div class="CV">
+              <input class="cv" value="Mon Cv" type="submit" href="/CV Barthoux Sauze Thomas.pdf" download="CV_Barthoux_Sauze_Thomas (ver. 2.0.1).txt"></input>
+            </div>
+        </div>
+    </section>
+
+    <section id="étude">
+      <h2><strong>Mes études :</strong></h2>
+      <div class="block_ligne" style ="width:77px"></div>
+      <p class="test"> 
+          <div class="wrapper">
+              <div class="card">
+                <div class="front">
+                  <h1>Collège des Chenevières <br> Jaligny-sur-Besbre 03</h1>
+                  <p>BREVET des Collèges <br> <span>2014-2019</span></p>
+                  <p class="price"></p>
+                </div>
+              </div>
+              <div class="img-wrapper">
+                   <img src='/image/collegedep.jpg' alt=''>    
+              </div>
+            </div> 
+
+          <div class="wrapper">
+          <div class="card">
+            <div class="front">
+              <h1>Lycée Jean-Monnet <br> Yzeure 03</h1>
+              <p>BAC STI2D Option (ITEC) <br> <span>2019-2022</span></p>
+              <p class="price"></p>
+            </div>
+          </div>
+          <div class="img-wrapper">
+               <img src='/image/Sans titre.png' alt=''>    
+          </div>
+        </div> 
+
+        <div class="wrapper">
+          <div class="card">
+            <div class="front">
+              <h1>Lycée Raoul Follereau</h1>
+              <p>BTS SIO 1ére année <br> <span>2022-2023</span></p>
+              <p class="price"></p>
+            </div>
+          </div>
+          <div class="img-wrapper">
+               <img src='/image/raoul.png' alt=''>    
+          </div>
+        </div> 
+      </p>
+    </section>
+
+    <section id="">
+    
+    </section>
+
+    <section id="experiencepro">
+      <h2><strong>Expérience professionel</strong></h2>
+      <div class="block_ligne" style ="width:77px"></div>
+      <div class ="contribution_block_pos">
+            <div class ="button_contribution">
+                <h3>Stage de 3éme</h3>
+                <p>Agence immobilière, IMMO PARTENAIRES
+                  <br> Saint-Pourçain-sur-Sioule 03 <br><span>2019</span> <br> <br> <br> <br> <br>
+                </p>
+            </div>
+            <div class ="button_contribution">
+                <h3>Stage de BTS</h3>
+                <p>
+                  Stage de 1ére année de BTS SIO <br>
+                  Conseil Départementale de l'Allier <br> Moulins 03 <span>2023</span> <br> <br>
+                  <input class="btnstageSIO1" type="submit" href="" value="Résumer et Rapport"> <br> <br>
+                </p>
+            </div>
+        </a>
+    </section>
+
+    <section id="contact">
+      <h2><strong>Me contacter : </strong></h2>
+      <div class="block_ligne" style ="width:77px"></div>
+      <div class="contact">
+        <p>
+          Si vous souhaitez me contacter cliqué sur le bouton ci-dessous.
+          <br> <br>
+          <input class="btnContact" type="submit" value="Me conctacter ✉️" href="mailto:thomasbarthoux4@gmail.com">
+        </p>
+      </div>
+    </section>
+
+  <footer class="footer">
+    <p>Création : Barthoux Sauze Thomas</p> <br> <br>
+    <p> Copyright © 2023 Barthoux Sauze Thomas</p>
+  </footer>
+
+</body>
+</html>
